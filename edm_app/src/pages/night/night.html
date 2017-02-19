@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     Night Clubs
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+<ion-list>
+  <ion-item *ngFor="let event of dj_events">
+    <h2>{{event[0]}}</h2>
+    <h3>{{event[3]}} </h3>
+    <p>{{event[2]}} </p>
+  </ion-item>
+</ion-list>
+
+</ion-content>
